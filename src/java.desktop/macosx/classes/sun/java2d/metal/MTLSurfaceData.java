@@ -563,11 +563,9 @@ public abstract class MTLSurfaceData extends SurfaceData
         public SurfaceData getReplacement() {
             return layer.getSurfaceData();
         }
-
-        @Override
-        public boolean isOnScreen() {
-            return true;
-        }
+    @Override
+        public boolean isOnScreen() { return true; }
+        
 
         @Override
         public Object getDestination() {
