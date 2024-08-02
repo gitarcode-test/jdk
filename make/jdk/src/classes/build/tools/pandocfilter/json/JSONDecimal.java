@@ -28,11 +28,9 @@ public class JSONDecimal implements JSONValue {
     public JSONDecimal(double value) {
         this.value = value;
     }
-
     @Override
-    public boolean isDouble() {
-        return true;
-    }
+    public boolean isDouble() { return true; }
+        
 
     @Override
     public double asDouble() {
