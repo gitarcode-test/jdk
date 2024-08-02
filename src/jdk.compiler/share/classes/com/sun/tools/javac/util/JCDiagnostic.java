@@ -881,10 +881,8 @@ public class JCDiagnostic implements Diagnostic<JavaFileObject> {
         public List<JCDiagnostic> getSubdiagnostics() {
             return subdiagnostics;
         }
-
-        @Override
-        public boolean isMultiline() {
-            return true;
-        }
+    @Override
+        public boolean isMultiline() { return true; }
+        
     }
 }
