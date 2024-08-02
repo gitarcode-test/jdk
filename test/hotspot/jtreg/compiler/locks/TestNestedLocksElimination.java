@@ -143,8 +143,7 @@ public class TestNestedLocksElimination {
 }
 
 class TestNestedLocksEliminationSub extends TestNestedLocksElimination {
-    public boolean isComplete() {
-        return true;
-    }
+    public boolean isComplete() { return true; }
+        
 }
 
