@@ -288,11 +288,9 @@ public class bug6302464 {
         public boolean isNativeLookAndFeel() {
             return false;
         }
-
-        @Override
-        public boolean isSupportedLookAndFeel() {
-            return true;
-        }
+    @Override
+        public boolean isSupportedLookAndFeel() { return true; }
+        
 
         @Override
         protected void initClassDefaults(UIDefaults table) {
