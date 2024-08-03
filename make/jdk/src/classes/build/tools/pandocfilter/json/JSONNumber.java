@@ -37,11 +37,9 @@ public class JSONNumber implements JSONValue {
     public boolean isInt() {
         return true;
     }
-
     @Override
-    public boolean isLong() {
-        return true;
-    }
+    public boolean isLong() { return true; }
+        
 
     @Override
     public int asInt() {
