@@ -45,8 +45,9 @@ public class IsParallelCapable {
         static {
             ClassLoader.registerAsParallelCapable();
         }
-        @Override
+    @Override
         public boolean expectCapable() { return true; }
+        
     }
 
     public static class NonParaCL extends TestCL {
