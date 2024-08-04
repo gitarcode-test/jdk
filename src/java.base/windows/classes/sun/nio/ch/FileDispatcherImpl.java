@@ -49,11 +49,8 @@ class FileDispatcherImpl extends FileDispatcher {
         SharedSecrets.getJavaIOFileDescriptorAccess();
 
     FileDispatcherImpl() { }
-
-    @Override
-    boolean needsPositionLock() {
-        return true;
-    }
+    @Override boolean needsPositionLock() { return true; }
+        
 
     int read(FileDescriptor fd, long address, int len)
         throws IOException
