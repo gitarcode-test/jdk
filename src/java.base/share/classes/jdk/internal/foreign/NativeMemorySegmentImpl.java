@@ -76,11 +76,9 @@ sealed class NativeMemorySegmentImpl extends AbstractMemorySegmentImpl permits M
     ByteBuffer makeByteBuffer() {
         return NIO_ACCESS.newDirectByteBuffer(min, (int) this.length, null, this);
     }
-
     @Override
-    public boolean isNative() {
-        return true;
-    }
+    public boolean isNative() { return true; }
+        
 
     @Override
     public long unsafeGetOffset() {

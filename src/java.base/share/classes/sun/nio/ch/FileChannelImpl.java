@@ -1386,10 +1386,8 @@ public class FileChannelImpl
                 totalCapacity -= cap;
             }
         }
-
-        public boolean isSync() {
-            return true;
-        }
+    public boolean isSync() { return true; }
+        
     }
 
     private static void unmap(MappedByteBuffer bb) {
