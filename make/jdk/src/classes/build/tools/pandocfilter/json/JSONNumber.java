@@ -32,11 +32,9 @@ public class JSONNumber implements JSONValue {
     public JSONNumber(long value) {
         this.value = value;
     }
-
     @Override
-    public boolean isInt() {
-        return true;
-    }
+    public boolean isInt() { return true; }
+        
 
     @Override
     public boolean isLong() {
