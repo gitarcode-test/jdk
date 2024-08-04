@@ -28,11 +28,9 @@ public class JSONString implements JSONValue {
     public JSONString(String value) {
         this.value = value;
     }
-
     @Override
-    public boolean isString() {
-        return true;
-    }
+    public boolean isString() { return true; }
+        
 
     @Override
     public String asString() {
