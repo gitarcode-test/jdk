@@ -166,11 +166,9 @@ public class ScrollBarBorderTest {
         public Insets getBorderInsets(Component c) {
             return new Insets(0, 0, 0, BORDER_WIDTH);
         }
-
-        @Override
-        public boolean isBorderOpaque() {
-            return true;
-        }
+    @Override
+        public boolean isBorderOpaque() { return true; }
+        
     }
 
     // custom border
