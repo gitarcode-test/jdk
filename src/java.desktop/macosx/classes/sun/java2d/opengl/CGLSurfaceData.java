@@ -125,11 +125,8 @@ public abstract class CGLSurfaceData extends OGLSurfaceData {
         public SurfaceData getReplacement() {
             return layer.getSurfaceData();
         }
-
-        @Override
-        boolean isOnScreen() {
-            return true;
-        }
+    @Override boolean isOnScreen() { return true; }
+        
 
         @Override
         public Object getDestination() {
