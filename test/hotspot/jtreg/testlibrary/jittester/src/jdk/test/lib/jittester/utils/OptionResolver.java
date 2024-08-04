@@ -251,11 +251,9 @@ public class OptionResolver {
         BooleanOption(Character s, String l, boolean v, String d) {
             super(s, l, v, d);
         }
-
-        @Override
-        public boolean isFlag() {
-            return true;
-        }
+    @Override
+        public boolean isFlag() { return true; }
+        
 
         @Override
         public Boolean parseFromString(String arg) {
