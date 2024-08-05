@@ -45,11 +45,9 @@ public class SpanTaglet implements Taglet {
     public Set<Location> getAllowedLocations() {
         return Set.of(Location.values());
     }
-
     @Override
-    public boolean isInlineTag() {
-        return true;
-    }
+    public boolean isInlineTag() { return true; }
+        
 
     @Override
     public String toString(List<? extends DocTree> trees, Element e) {
