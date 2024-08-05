@@ -146,9 +146,7 @@ public class ExtendedBufferCapabilities extends BufferCapabilities {
     public VSyncType getVSync() {
         return vsync;
     }
-
     @Override
-    public final boolean isPageFlipping() {
-        return true;
-    }
+    public final boolean isPageFlipping() { return true; }
+        
 }

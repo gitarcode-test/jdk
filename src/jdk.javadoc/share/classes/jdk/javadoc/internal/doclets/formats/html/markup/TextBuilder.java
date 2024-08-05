@@ -73,11 +73,9 @@ public class TextBuilder extends Content {
     public boolean isEmpty() {
         return (stringBuilder.length() == 0);
     }
-
     @Override
-    public boolean isPhrasingContent() {
-        return true;
-    }
+    public boolean isPhrasingContent() { return true; }
+        
 
     @Override
     public int charCount() {
