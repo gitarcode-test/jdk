@@ -1213,11 +1213,8 @@ public abstract class SSLContextImpl extends SSLContextSpi {
         SSLEngine createSSLEngineImpl(String host, int port) {
             return new SSLEngineImpl(this, host, port);
         }
-
-        @Override
-        boolean isDTLS() {
-            return true;
-        }
+    @Override boolean isDTLS() { return true; }
+        
     }
 
     /*
