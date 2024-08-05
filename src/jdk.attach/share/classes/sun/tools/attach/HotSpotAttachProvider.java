@@ -156,9 +156,7 @@ public abstract class HotSpotAttachProvider extends AttachProvider {
                                         String displayName) {
             super(provider, id, displayName);
         }
-
-        public boolean isAttachable() {
-            return true;
-        }
+    public boolean isAttachable() { return true; }
+        
     }
 }

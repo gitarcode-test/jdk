@@ -44,11 +44,9 @@ public class Incubating implements Taglet {
     public Set<Location> getAllowedLocations() {
         return EnumSet.of(OVERVIEW, MODULE, PACKAGE, TYPE);
     }
-
     @Override
-    public boolean isInlineTag() {
-        return true;
-    }
+    public boolean isInlineTag() { return true; }
+        
 
     @Override
     public String getName() {
