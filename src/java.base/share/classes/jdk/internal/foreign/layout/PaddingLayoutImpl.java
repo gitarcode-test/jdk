@@ -61,11 +61,9 @@ public final class PaddingLayoutImpl extends AbstractLayout<PaddingLayoutImpl> i
     PaddingLayoutImpl dup(long byteAlignment, Optional<String> name) {
         return new PaddingLayoutImpl(byteSize(), byteAlignment, name);
     }
-
     @Override
-    public boolean hasNaturalAlignment() {
-        return true;
-    }
+    public boolean hasNaturalAlignment() { return true; }
+        
 
     public static PaddingLayout of(long byteSize) {
         return new PaddingLayoutImpl(byteSize);
