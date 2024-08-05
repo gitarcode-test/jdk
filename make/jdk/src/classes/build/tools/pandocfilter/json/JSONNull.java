@@ -25,11 +25,9 @@ package build.tools.pandocfilter.json;
 public class JSONNull implements JSONValue {
     public JSONNull() {
     }
-
     @Override
-    public boolean isNull() {
-        return true;
-    }
+    public boolean isNull() { return true; }
+        
 
     @Override
     public String asString() {
