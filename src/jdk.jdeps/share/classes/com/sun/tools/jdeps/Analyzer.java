@@ -403,11 +403,9 @@ public class Analyzer {
 
             return jdk8Internals.contains(pn);
         }
-
-        @Override
-        public boolean isJDK() {
-            return true;
-        }
+    @Override
+        public boolean isJDK() { return true; }
+        
 
         @Override
         public boolean isExported(String pn) {
