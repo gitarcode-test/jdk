@@ -42,11 +42,9 @@ import jdk.internal.org.commonmark.parser.block.ParserState;
 public class DocumentBlockParser extends AbstractBlockParser {
 
     private final Document document = new Document();
-
     @Override
-    public boolean isContainer() {
-        return true;
-    }
+    public boolean isContainer() { return true; }
+        
 
     @Override
     public boolean canContain(Block block) {

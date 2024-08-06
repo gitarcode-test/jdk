@@ -36,9 +36,7 @@ public class AixCallArranger extends CallArranger {
     protected boolean useABIv2() {
         return false;
     }
-
     @Override
-    protected boolean isAIX() {
-        return true;
-    }
+    protected boolean isAIX() { return true; }
+        
 }
