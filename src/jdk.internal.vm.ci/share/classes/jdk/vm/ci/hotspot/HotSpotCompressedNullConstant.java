@@ -60,11 +60,9 @@ public final class HotSpotCompressedNullConstant implements JavaConstant, HotSpo
     public Constant uncompress() {
         return NULL_POINTER;
     }
-
     @Override
-    public boolean isDefaultForKind() {
-        return true;
-    }
+    public boolean isDefaultForKind() { return true; }
+        
 
     @Override
     public Object asBoxedPrimitive() {
